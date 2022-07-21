@@ -1,0 +1,157 @@
+.Banner-Fifa{
+    display: flex;
+    background-color:rgb(10, 11, 11);
+    justify-content:space-around;
+    margin: 25px 25px;
+    border-radius: 10px;
+    height: 400px;
+    padding: 100px 20px;
+    animation: normal;
+    
+}
+.Banner-info{
+    font-weight: 700;
+    color: rgb(231, 222, 222);
+    margin-top:20px ;
+    margin-right: 10px;
+    padding:10px;
+   
+    
+}
+   
+.fifa{
+    font-size:2.2em;
+}
+
+.button{
+    background-color:rgb(248, 169, 21);
+    color: black;
+    font-weight: 700;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+.button:hover{
+    background-color:rgba(226, 62, 40, 0.918);
+    color: whitesmoke;
+}
+.Banner-model{
+    position:relative;
+    padding-top: 50px;
+    
+}
+.marcelo{
+    height:450px;
+    width: auto;
+}
+.Fifa{
+    color: red;
+}
+.play{
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    display:grid;
+    grid-template-rows: 60px 60px 60px;
+    row-gap: 20px;
+    height: 220px;
+    background-color: rgb(10, 11, 11);
+    font-size: 1em;
+    
+}
+.click{
+        background-color:whitesmoke;
+        border-radius: 5px;
+        color:black;
+        padding: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 700;
+}
+.click:hover{
+    background-color: rgb(223, 32, 32);
+    color: whitesmoke;
+}
+.container{
+    margin-top: 100px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    flex-direction: row;
+    
+
+ 
+}
+.commentry{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-left: 50px;
+   
+}
+.box-1:hover{
+    background-color: rgb(17, 14, 14);
+    color:lightyellow;
+}
+.box-1 img{
+    width: 100%;
+}
+.box-1{
+    border:2px ridge white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.box-1 button{
+background-color:rgb(248, 169, 21);
+border-radius: 5px;
+text-align: center;
+padding: 5px;
+font-weight: 700;
+}
+.box-1 button:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+
+.end{display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    justify-content:space-evenly;
+    margin: 20px;
+    padding: 3%;
+    background-color: rgb(17, 14, 14);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+  
+
+.goal{
+    border-bottom:ridge;
+    border-color: rgb(24, 22, 22);
+    width: auto;
+}
+.Info{
+    display: flex;
+    flex-direction:row;
+     justify-content: space-evenly;
+}
+.join{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+@media screen and (max-width: 576px){
+    .commentry{
+        background-color: orange
+    }
+    }
+@media screen and (min-width:557px)and(max-width:992px){
+    .commentry{
+        background-color: lightsalmon;
+    }
+}
